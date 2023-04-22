@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css" />
+
+  </head>
+  <body>
+    <div class="mx-auto bg-gray-50 h-screen">
+
+        <div class="bg-white rounded-lg shadow-md w-10/12 m-auto">
+    
+            <!-- Menu -->
+            <div class="flex items-center justify-between p-4 mb-2 text-xl shadow rounded">
+                <ul class="flex">
+                    <li class="mr-6">
+                        <a routerLink="/home" class="text-gray-700 font-medium hover:text-gray-900">Home</a>
+                    </li>
+                    <!-- <li>
+                        <a routerLink="/capture" class="text-gray-700 font-medium hover:text-gray-900">Camera</a>
+                    </li> -->
+                </ul>
+            </div>
+    
+            <div class="p-8 pt-0">
+    
+                <!-- Header -->
+                <div class="flex items-center justify-between my-8">
+                    <div class="flex items-center">
+                        <img src="assets/logo.png" alt="Logo" class="h-20 mr-4">
+                        <h1 class="text-4xl font-bold text-gray-800">Smart Eye</h1>
+                    </div>
+                    <div class="text-gray-500 text-md" id="date">
+                        ...
+                    </div>
+                </div>
+    
+                <h2 class="text-3xl text-center font-semibold mb-8">Guns Detection with YOLOv8</h2>
+    
+                <!-- <form action="results.html" method="POST" enctype="multipart/form-data"> -->
+                <form method="POST" enctype="multipart/form-data">
+
+                    <input type="file" name="file" id="file-input">
+
+                    <button type="submit" id="submit-btn"
+                        class="px-2 py-1 text-lg hover:opacity-80 text-white rounded" style="background-color: rgb(165, 69, 98);">
+                        Submit
+                    </button>
+                </form>
+
+                <h2 id="tmp-message" class="mt-5 -mb-5 text-xl text-emerald-950">Predictions will be shown below...</h2>
+                
+                <div class="mt-12">
+                    <img class="w-96 h-96" id="image-output"/>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>
