@@ -9,7 +9,7 @@
 <h1>Predicted Image</h1>
 {#<img src="http://localhost:5000/predict" alt="Predicted Image">#}
 
-<form action="{{ url_for('predict') }}" method="POST" enctype="multipart/form-data">
+<form action="{{ url_for('api/predict') }}" method="POST" enctype="multipart/form-data">
 
     <input type="file" name="file" id="file-input">
     <button type="submit" id="submit-btn">Submit</button>

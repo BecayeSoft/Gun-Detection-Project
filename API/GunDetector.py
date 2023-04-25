@@ -38,8 +38,9 @@ class GunDetector:
         pred_results = self.model.predict(source=image)
         # pred_image = pred_results[0].plot()
 
-        print('\n\n-------------pred_results---------------\n\n', pred_results[0].boxes)
-        pred_image = self.draw_predicted_boxes(pred_results, color=color)
+        # print('\n\n-------------pred_results---------------\n\n', pred_results[0].boxes)
+        # pred_image = self.draw_predicted_boxes(pred_results, color=color)
+        pred_image = pred_results[0].plot()
 
         return pred_image
 
@@ -119,7 +120,7 @@ class GunDetector:
 
             original_image = pred.orig_img
 
-            # x and y are the center of the box, so we put the at the top left
+            # x and y are the center of the box, so we put the at them top left
             w = bbox[2]
             h = bbox[3]
             x = int(bbox[0] - w / 2)

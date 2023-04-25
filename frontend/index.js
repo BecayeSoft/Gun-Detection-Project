@@ -2,7 +2,7 @@ const fileInput = document.getElementById('file-input');
 const submitBtn = document.getElementById('submit-btn');
 const imageOutput = document.getElementById('image-output');
 
-API_URL = 'http://127.0.0.1:5000'
+API_URL = 'http://127.0.0.1:5000/api'
 
 submitBtn.addEventListener('click', async (event) => {
     // prevent the page from reloading
