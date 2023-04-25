@@ -9,16 +9,16 @@ python3 -m venv env
 
 Activate/Deactivate env (PowerShell)
 ```
-env/Scripts/Activate.ps1
+env/Activate.ps1
 deactivate
 ```
 
-Save requirements
+For mac users:
 ```
-pip freeze > requirements.txt
+source env/activate
 ```
 
-Activate virtual env from another computer
+Install dependencies
 ```
 pip install -r requirements.txt
 ```
