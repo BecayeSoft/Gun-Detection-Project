@@ -1,9 +1,11 @@
 # Gun-Detection-API
 
 ### Usage
+Clone and navigate to the API, install the requirements before running the API.
 ```
 git clone https://github.com/BecayeSoft/Guns-Detections-Project
 cd Guns-Detections-Project/API/
+pip install requirements.txt
 flask run
 ```
 
