@@ -1,5 +1,12 @@
 # Gun-Detection-API
 
+### Usage
+```
+git clone https://github.com/BecayeSoft/Guns-Detections-Project
+cd Guns-Detections-Project/API/
+flask run
+```
+
 #### TODO
 - [ ] Add support for videos
 
