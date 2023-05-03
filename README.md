@@ -4,8 +4,8 @@ A web application for performing gun detection on images and videos. This projec
 See the PDF files `presentation.pdf` and `report.pdf` - available only in french for now - for more details.
 
 #### TODO:
-- [ ] Upload report - FR version
-- [ ] Add video support
+- [x] Upload report - FR version
+- [ ] Add video support to the API
 - [ ] Add real-time detection
 - [ ] Deploy Front-end to AWS Beanstalk
 - [x] Deploy API to ECS
