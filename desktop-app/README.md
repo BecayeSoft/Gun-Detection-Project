@@ -5,7 +5,7 @@ This is a standalone desktop app to test the model locally.
 You can test it on your own machine.
 
 ## Setup
-Follow these step to test the project.
+Instructions to test the project.
 
 Since it is not necessary to clone the whole project, you can follow these steps:
 
@@ -19,9 +19,8 @@ git clone --depth=1 --filter=tree:0 "https://github.com/BecayeSoft/Guns-Detectio
 cd desktop-app
 ```
 
-3. Activate the virtual environment and install the dependencies
+2. Install the dependencies
 ```
-.\Scripts\activate.ps1
 pip install -r requirements.txt
 ```
 
