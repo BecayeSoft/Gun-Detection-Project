@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f076f6a2-d179-458f-831d-92d96a369064" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../desktop-app/.idea/desktop-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../API/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/.idea/Guns-Detection-Flask-API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../API/.idea/Guns-Detection-Flask-API.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/Dokerfile.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API/SETUP.md" beforeDir="false" afterPath="$PROJECT_DIR$/../API/SETUP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,16 +20,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/UQAC/Guns-Detections-Project/frontend",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/UQAC/Guns-Detections-Project/frontend&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +40,7 @@
       <updated>1682140161045</updated>
       <workItem from="1682140162080" duration="41000" />
       <workItem from="1682450597050" duration="95000" />
+      <workItem from="1682480429044" duration="12000" />
     </task>
     <servers />
   </component>

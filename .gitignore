@@ -1,0 +1,10 @@
+
+desktop-app/__pycache__/
+
+desktop-app/Lib/
+
+desktop-app/Scripts/
+
+desktop-app/share/
+
+desktop-app/pyvenv.cfg
